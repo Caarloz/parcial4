@@ -45,7 +45,30 @@ class _PrincipalPageState extends State<PrincipalPage> {
 }
 
 Marker mar1 = Marker(
-    markerId: MarkerId('Marca1'),
-    position: LatLng(13.7001138, -89.2007472),
-    infoWindow: InfoWindow(title: "markerIdVal", snippet: '*'),
+    markerId: MarkerId('Arce'),
+    position: LatLng(13.699727, -89.2003444),
+    infoWindow: InfoWindow(
+        title: "Sucursal Ubicada en Calle Arce, San Salvador", snippet: '*'),
     icon: BitmapDescriptor.defaultMarkerWithHue(BitmapDescriptor.hueViolet));
+
+Marker mar2 = Marker(
+    markerId: MarkerId('Salvador del Mundo'),
+    position: LatLng(13.7013266, -89.2289186),
+    infoWindow: InfoWindow(
+        title: "Sucursal ubicada cerca de la Rotonda Divino Salvador del Mundo",
+        snippet: '*'),
+    icon: BitmapDescriptor.defaultMarkerWithHue(BitmapDescriptor.hueAzure));
+
+Marker mar3 = Marker(
+    markerId: MarkerId('Soyapango'),
+    position: LatLng(13.7102391, -89.1485734),
+    infoWindow: InfoWindow(
+        title: "Sucursal ubicada en el Centro de SOyapango", snippet: '*'),
+    icon: BitmapDescriptor.defaultMarkerWithHue(BitmapDescriptor.hueAzure));
+
+Marker mar4 = Marker(
+    markerId: MarkerId('San Jacinto'),
+    position: LatLng(13.9683696, -89.4817548),
+    infoWindow:
+        InfoWindow(title: "Sucursal ubicada en San Jacinto", snippet: '*'),
+    icon: BitmapDescriptor.defaultMarkerWithHue(BitmapDescriptor.hueAzure));
